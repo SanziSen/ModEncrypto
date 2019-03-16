@@ -1,0 +1,15 @@
+1. For the success of the program, we need a key to be assigned which will contain the
+location of any file of who’s last opening time will be recorder and will be one of the
+keys of the tool. So, a text file as key should be there in the program’s file or else an
+error flag will be generated and the program will be terminated.
+2. At first, it will be asked to the user to choose from encryption, decryption and
+changing the key folder.
+3. If encryption is choosing, then the file location of the required text file will be asked
+and will be encrypted from the shown algorithm and it will be saved and the location
+of f its will be displayed.
+4. If chosen for decryption, the file location of the asked file will be asked and will be
+decrypted and saved successfully.
+5. If any files are not present in specified folders, then an error message will be displayed
+and it will be asked again to provide the correct file.
+6. If the user choses to change the key file, then by opting it, it can be changed, and the
+same will bre reflected in the program.
