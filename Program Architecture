@@ -1,0 +1,21 @@
+1) Application reads the
+time(seconds) of last opening of
+any pre user entered program
+
+2) While the application reads each characters
+from a user specified file, it adds some ASCII
+value to that character which is equal to the last
+two digit numbered current microseconds
+subtracted by the time determined by previous
+step, thus every character is encrypted in some
+other format each it is read
+
+3) In the encrypted file, the microseconds time is
+stored for every character in ASCII form and the
+time of last execution of the previously said
+application is saved in number format
+
+4) The decryptor program reads each character, its
+microseconds time and the time of execution of
+the said file last opened and reverses the said
+steps to decrypt the file
